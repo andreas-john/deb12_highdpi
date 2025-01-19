@@ -3,6 +3,12 @@ snippets for getting enlarged font size in grub and command line for high dpi la
 
 # grub
 
+check if uefi or bios:
+
+#!/bin/bash
+[ -d /sys/firmware/efi ] && echo UEFI || echo BIOS
+
+
 important: After disabling "Secure Boot" in BIOS, it worked.
 
 First make a grub style font
