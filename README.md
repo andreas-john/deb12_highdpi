@@ -18,6 +18,8 @@ then run
 
 resource: https://forums.debian.net/viewtopic.php?t=153768
 
+3240x2160 -> fontsize 48 ?
+
 # console
 
 ```sudo dpkg-reconfigure console-setup```
