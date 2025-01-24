@@ -32,9 +32,9 @@ resource: https://forums.debian.net/viewtopic.php?t=153768
 
 When you run it, it will ask you
 
-Encoding: UTF-8
-Character set: UTF8
-Try Terminusframebuffer
-x32 is the matching one...
+* Encoding: UTF-8
+* Character set: UTF8
+* Try Terminusframebuffer
+* x32 is the matching one...
 
 
