@@ -16,7 +16,7 @@ First make a grub style font
 
 then add the following line to /etc/default/grub
 
- ```GRUB_FONT="/boot/grub/fonts/DejaVuSansMonoRegular24.pf2"```
+ ```GRUB_FONT="/boot/grub/fonts/DejaVuSansMonoRegular32.pf2"```
 
 then run
 
