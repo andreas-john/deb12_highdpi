@@ -12,7 +12,7 @@ check if uefi or bios:
 important: After disabling "Secure Boot" in BIOS, it worked.
 
 First make a grub style font
- ```sudo grub-mkfont -o /boot/grub/fonts/DejaVuSansMonoRegular24.pf2  -s 24   /usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf```
+ ```sudo grub-mkfont -o /boot/grub/fonts/DejaVuSansMonoRegular32.pf2  -s 32   /usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf```
 
 then add the following line to /etc/default/grub
 
@@ -24,7 +24,7 @@ then run
 
 resource: https://forums.debian.net/viewtopic.php?t=153768
 
-3240x2160 -> fontsize 48 ?
+3240x2160 -> fontsize 32
 
 # console
 
@@ -33,6 +33,8 @@ resource: https://forums.debian.net/viewtopic.php?t=153768
 When you run it, it will ask you
 
 Encoding: UTF-8
-Character set: Guess best
-Font: Try Terminus or Terminus Bold with framebuffer
-Try out different fonts to see what works best for you.
+Character set: UTF8
+Try Terminusframebuffer
+x32 is the matching one...
+
+
